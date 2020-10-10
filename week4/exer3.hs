@@ -24,7 +24,6 @@ daysInYear y = [jan1..dec31]
     where jan1 = fromGregorian y 1 1
           dec31 = fromGregorian y 12 31
 
--- learned the $ from https://stackoverflow.com/questions/2035742/is-there-a-haskell-library-for-dates/46548811#46548811
 isFriday :: Day -> Bool
 isFriday d =  (snd $ mondayStartWeek $ d) == 5
 
