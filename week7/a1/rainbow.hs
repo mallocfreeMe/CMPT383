@@ -55,7 +55,7 @@ createRow :: Int -> Passwd -> [(Hash, Passwd)]
 createRow 0 password = [(pwHash(password), password)]
 createRow width password = [(pwHash(newPassword (width) (password)), (newPassword (width) (password)))] ++ (createRow (width-1) (password))
 
--- createRow Function: helper method for findPassword
+-- createTable Function: helper method for findPassword
 -- PARAM: takes two arugument: width, a list of passwords
 -- POST: should return the whole rainbow table in a list format
 createTable :: Int -> [Passwd] -> [(Hash, Passwd)]
