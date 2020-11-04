@@ -1,0 +1,19 @@
+Language Description #1
+1. C++11
+2. Imperative, object oriented, procedural
+3. GCC
+4. Static binding
+5. Strong type
+6. Manual memory management
+7. It supports all the first-class function behaviors. It can take a function argument, it can store a function as a variable, and a function can be returned from a function. In C++, lambda expression constructs a closure.  
+8. C++11 provides two tools to support concurrent programming. The first tool is the Memory model, and it is used to set the rule that threads will follow when sharing data in memory. The second tool is the Standard Threading API, and it provides you a portable way to work with threads use the <thread> header. (https://www.c-sharpcorner.com/article/programming-concurrency-in-cpp-part-1/)
+
+Language Description #2
+1. PHP7
+2. Imperative, object oriented, procedural
+3. Bytecode compiled
+4. Dynamic binding
+5. Week typing
+6. Garbage collected and it uses cycle-finding algorithm based on the website. (https://www.php.net/manual/en/features.gc.collecting-cycles.php)
+7. PHP7 supports first-class functions. A closure in PHP7 is an anonymous function.
+8. PHP7 currently doesn't have high-level abstractions to manage concurrency, and we have to use third-party libraries. But it has a pthreads extension to support parallel programming in the language. 

@@ -1,0 +1,9 @@
+curry/uncurry
+foldl/foldr
+list comprehension 
+tail recusive
+point free
+map 
+filter
+lazy evulation/$!
+Monads
